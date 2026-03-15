@@ -16,7 +16,7 @@ CREATE TABLE Magazijn (
     FOREIGN KEY (ProductId) REFERENCES Product(Id)
 );
 
-CREATE TABLE ProductPerAllergeen (
+CREATE TABLE ProductPerAllergeen ( 
     Id INT PRIMARY KEY,
     ProductId INT,
     AllergeenId INT,
