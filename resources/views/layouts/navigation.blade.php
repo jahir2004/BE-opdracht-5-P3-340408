@@ -18,6 +18,9 @@
                     <x-nav-link :href="route('allergenen.index')" :active="request()->routeIs('allergenen.*')">
                         {{ __('Overzicht Allergenen') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('geleverd.index')" :active="request()->routeIs('geleverd.*')">
+                        {{ __('Overzicht Geleverd') }}
+                    </x-nav-link>    
                 </div>
             </div>
 
